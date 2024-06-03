@@ -39,6 +39,11 @@
   "resolved" "https://registry.npmjs.org/@react-google-maps/marker-clusterer/-/marker-clusterer-2.19.2.tgz"
   "version" "2.19.2"
 
+"@remix-run/router@1.16.1":
+  "integrity" "sha512-es2g3dq6Nb07iFxGk5GuHN20RwBZOsuDQN7izWIisUcv9r+d2C5jQxqmgkdebXgReWfiyUabcki6Fg77mSNrig=="
+  "resolved" "https://registry.npmjs.org/@remix-run/router/-/router-1.16.1.tgz"
+  "version" "1.16.1"
+
 "@types/google.maps@3.55.2":
   "integrity" "sha512-JcTwzkxskR8DN/nnX96Pie3gGN3WHiPpuxzuQ9z3516o1bB243d8w8DHUJ8BohuzoT1o3HUFta2ns/mkZC8KRw=="
   "resolved" "https://registry.npmjs.org/@types/google.maps/-/google.maps-3.55.2.tgz"
@@ -73,7 +78,7 @@
   dependencies:
     "js-tokens" "^3.0.0 || ^4.0.0"
 
-"react-dom@^16.8 || ^17 || ^18":
+"react-dom@^16.8 || ^17 || ^18", "react-dom@>=16.8":
   "integrity" "sha512-5m4nQKp+rZRb09LNH59GM4BxTh9251/ylbKIbpe7TpGxfJ+9kv6BLkLBXIjjspbgbnIBNqlI23tRnTWT0snUIw=="
   "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-18.3.1.tgz"
   "version" "18.3.1"
@@ -81,7 +86,22 @@
     "loose-envify" "^1.1.0"
     "scheduler" "^0.23.2"
 
-"react@^16.8 || ^17 || ^18", "react@^18.3.1":
+"react-router-dom@^6.23.1":
+  "integrity" "sha512-utP+K+aSTtEdbWpC+4gxhdlPFwuEfDKq8ZrPFU65bbRJY+l706qjR7yaidBpo3MSeA/fzwbXWbKBI6ftOnP3OQ=="
+  "resolved" "https://registry.npmjs.org/react-router-dom/-/react-router-dom-6.23.1.tgz"
+  "version" "6.23.1"
+  dependencies:
+    "@remix-run/router" "1.16.1"
+    "react-router" "6.23.1"
+
+"react-router@6.23.1":
+  "integrity" "sha512-fzcOaRF69uvqbbM7OhvQyBTFDVrrGlsFdS3AL+1KfIBtGETibHzi3FkoTRyiDJnWNc2VxrfvR+657ROHjaNjqQ=="
+  "resolved" "https://registry.npmjs.org/react-router/-/react-router-6.23.1.tgz"
+  "version" "6.23.1"
+  dependencies:
+    "@remix-run/router" "1.16.1"
+
+"react@^16.8 || ^17 || ^18", "react@^18.3.1", "react@>=16.8":
   "integrity" "sha512-wS+hAgJShR0KhEvPJArfuPVN1+Hz1t0Y6n5jLrGQbkb4urgPE/0Rve+1kMB1v/oWgHgm4WIcV+i7F2pTVj+2iQ=="
   "resolved" "https://registry.npmjs.org/react/-/react-18.3.1.tgz"
   "version" "18.3.1"

@@ -1,0 +1,14 @@
+/* src/components/AdminDashboard.css */
+.admin-dashboard {
+    padding: 20px;
+  }
+  
+  .admin-dashboard nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .admin-dashboard nav ul li {
+    margin: 10px 0;
+  }
+  
